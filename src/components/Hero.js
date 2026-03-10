@@ -108,7 +108,7 @@ export default function Hero() {
 
           {/* DOWNLOAD RESUME */}
           <a
-            href="/resume.pdf"
+            href="Dharshini-resume-1.pdf"
             download
             className="px-6 py-3 rounded-xl border border-cyan-400/40
             hover:bg-cyan-400/10 hover:border-cyan-400
