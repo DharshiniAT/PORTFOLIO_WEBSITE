@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
-import profile from "../assests/profile.jpeg";
+
 
 export default function About() {
   const { ref, inView } = useInView({ triggerOnce: true });
@@ -63,7 +63,7 @@ export default function About() {
 
             {/* FLOATING IMAGE */}
             <motion.img
-              src={profile}
+              src=""
               alt="Dharshini A T — MERN Stack Developer"
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
